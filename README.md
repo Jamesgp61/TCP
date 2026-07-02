@@ -51,8 +51,8 @@ To refactor or audit a file with extreme token efficiency, use the prompt carver
 ```bash
 docker exec -it opencode_topology_agent python3 \
   /workspace/topology_workspace/topology_prompt.py \
-  manage.py \
-  "Audit this script to ensure security configurations match standard production guidelines."
+
+   "Audit this script to ensure security configurations match standard production guidelines."
 ```
 This surgically slices your codebase context window and stages a pristine prompt payload at `/workspace/topology_workspace/active_prompt.txt`.
 
