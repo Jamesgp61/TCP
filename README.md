@@ -31,7 +31,6 @@ tcp_protocol/
 
 ## 🛠️ Sandbox Execution & Usage Guidelines
 
-Before migrating files to the public distribution path (`~/tcp_protocol`), you can actively train and control the model directly inside your current `~/Project1` sandbox environment using your containerized runtime agent.
 
 ### 1. Re-index and Quantize Workspace Files
 To scan your current codebase and deterministically balance files across the 64 discrete hypercube coordinates, run the project mapper script inside your active container:
