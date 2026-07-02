@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "topological-context-protocol"
+version = "1.0.0"
+description = "A 6-bit Shannon compression and Energy-Based Model framework for zero-bloat AI context routing."
+readme = "README.md"
+authors = [{ name = "jgp" }]
+license = { text = "MIT" }
+dependencies = ["openai>=1.0.0"]
+
+[project.scripts]
+tcp-init = "tcp_core.map_project:main"
